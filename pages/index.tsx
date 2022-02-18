@@ -1,16 +1,14 @@
-import type { NextPage } from 'next'
-import { useEffect, useRef, useState } from 'react'
+import type { NextPage } from 'next';
+import { useEffect, useRef, useState } from 'react';
 
-import Frame from 'component/frame/Frame'
+import Frame from 'component/frame/Frame';
 
 const Home: NextPage = () => {
- 
   return (
     <>
-      <Frame>
-      </Frame>
+      <Frame></Frame>
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

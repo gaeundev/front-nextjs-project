@@ -2,124 +2,125 @@
 
 html,
 body {
-    padding: 0;
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 #__next {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 :root {
-    --main-color: #c2cee9;
-    --main-color-border: #406ace;
-    --highlight-color-yellow: #f0f87b;
-    --highlight-color-red: #f87b7b;
-    --black-color: #000000;
-    --white-color: #fcfcfc;
+  --main-color: #c2cee9;
+  --main-color-border: #406ace;
+  --highlight-color-yellow: #f0f87b;
+  --highlight-color-red: #f87b7b;
+  --black-color: #000000;
+  --white-color: #fcfcfc;
 }
 
 ::selection {
-    background-color: var(--main-color);
-    color: var(--white-color);
+  background-color: var(--main-color);
+  color: var(--white-color);
 }
 
 a {
-    color: inherit;
-    text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 h1 {
-    font-size: 2.6em;
-    margin: 0;
-    padding: 0;
+  font-size: 2.6em;
+  margin: 0;
+  padding: 0;
 
-    @include laptop {
-        font-size: 2.6em;
-    }
-    @include tablet {
-        font-size: 2em;
-    }
-    @include desktop {
-        font-size: 2em;
-    }
+  @include laptop {
+    font-size: 2.6em;
+  }
+  @include tablet {
+    font-size: 2em;
+  }
+  @include desktop {
+    font-size: 2em;
+  }
 }
 
 h2 {
-    font-size: 2.4em;
-    margin: 0;
-    padding: 0;
+  font-size: 2.4em;
+  margin: 0;
+  padding: 0;
 
-    @include laptop {
-        font-size: 2.4em;
-    }
-    @include tablet {
-        font-size: 1.8em;
-    }
-    @include desktop {
-        font-size: 1.8em;
-    }
+  @include laptop {
+    font-size: 2.4em;
+  }
+  @include tablet {
+    font-size: 1.8em;
+  }
+  @include desktop {
+    font-size: 1.8em;
+  }
 }
 
 h3 {
-    font-size: 2.2em;
-    margin: 0;
-    padding: 0;
+  font-size: 2.2em;
+  margin: 0;
+  padding: 0;
 
-    @include laptop {
-        font-size: 2.2em;
-    }
-    @include tablet {
-        font-size: 1.6em;
-    }
-    @include desktop {
-        font-size: 1.6em;
-    }
+  @include laptop {
+    font-size: 2.2em;
+  }
+  @include tablet {
+    font-size: 1.6em;
+  }
+  @include desktop {
+    font-size: 1.6em;
+  }
 }
 
 h4 {
-    font-size: 2em;
-    margin: 0;
-    padding: 0;
+  font-size: 2em;
+  margin: 0;
+  padding: 0;
 
-    @include laptop {
-        font-size: 2em;
-    }
-    @include tablet {
-        font-size: 1.4em;
-    }
-    @include desktop {
-        font-size: 1.4em;
-    }
+  @include laptop {
+    font-size: 2em;
+  }
+  @include tablet {
+    font-size: 1.4em;
+  }
+  @include desktop {
+    font-size: 1.4em;
+  }
 }
 
 /* CSS 제거 */
 button {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
 }
 
 input {
-    border: none;
+  border: none;
 }
 
 input:focus,
 input:active,
 button:focus,
 button:active {
-    outline: none;
-    box-shadow: none;
+  outline: none;
+  box-shadow: none;
 }
 
 .title {
-    font-size: 12px;
+  font-size: 12px;
 }

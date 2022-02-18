@@ -2,9 +2,9 @@
 
 ## 사용 스택
 
--   Next.js (React 기반)
--   TypeScript
--   Scss
+- Next.js (React 기반)
+- TypeScript
+- Scss
 
 <br/>
 
@@ -24,4 +24,4 @@ $ npm run start
 
 ## 메모
 
--   반응형 및 디바이스 고려하기
+- 반응형 및 디바이스 고려하기
