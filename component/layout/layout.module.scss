@@ -1,0 +1,69 @@
+@import '/styles/setting';
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+  width: 100%;
+  height: auto;
+}
+
+.on {
+  display: block;
+}
+
+.off {
+  display: none;
+}
+
+.sideContents {
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+
+  @include tablet {
+    flex-direction: row;
+  }
+  @include desktop {
+    flex-direction: row;
+  }
+
+  .menu {
+    background-color: white;
+    cursor: pointer;
+
+    @include tablet {
+      display: none;
+    }
+    @include desktop {
+      display: none;
+    }
+  }
+
+  .leftNav {
+    /* background-color: black; */
+    color: var(--white-color);
+
+    @include tablet {
+      flex: 3;
+    }
+    @include desktop {
+      flex: 3;
+    }
+  }
+
+  .rightNav {
+    background-color: green;
+    color: var(--white-color);
+
+    @include tablet {
+      flex: 7;
+    }
+
+    @include desktop {
+      flex: 7;
+    }
+  }
+}
