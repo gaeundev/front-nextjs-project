@@ -1,31 +1,27 @@
-import React, { useState } from 'react';
+// module
+import React from 'react';
+import Link from 'next/link';
+
+// css
 import styled from './frame.module.scss';
 
 const Header: React.FC = () => {
-  const [menuOn, setMenuOn] = useState('MENU');
-
-  const menuBtnHandler = (e: any) => {
-    e.preventDefault();
-
-    setMenuOn((v) => (v === 'MENU' ? 'CLOSE' : 'MENU'));
-  };
-
   return (
-    <header className={styled.header}>
-      <div>
-        <div className={styled.logo}>
-          <h1>HEADER</h1>
+    <>
+      <header className={styled.frameHeader}>
+        <div>
+          <Link href="/">
+            <a>logo</a>
+          </Link>
+          <Link href="/">
+            <a>메뉴1</a>
+          </Link>
+          <Link href="/">
+            <a>메뉴2</a>
+          </Link>
         </div>
-        <div></div>
-        <button
-          className={styled.menuBtn}
-          type="button"
-          onClick={menuBtnHandler}
-        >
-          {menuOn}
-        </button>
-      </div>
-    </header>
+      </header>
+    </>
   );
 };
 

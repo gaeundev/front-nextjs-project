@@ -23,3 +23,9 @@ $desktop: 1400px;
     @content;
   }
 }
+
+@font-face {
+  font-family: NotoSans;
+  font-weight: 200;
+  src: url('/font/NotoSansKR.Reqular.otf') format('otf');
+}

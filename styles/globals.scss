@@ -1,31 +1,39 @@
 @import '/styles/setting';
 
+:root {
+  --main-background-color: #0b1522;
+  --main-white: #eeeeee;
+  --main-red: #f92726;
+  --main-orange: #f99926;
+  --main-yellow: #feca1e;
+  --main-yellow-06: rgb(254, 202, 30, 0.6);
+  --main-green: #11db1e;
+  --main-sky: #30a2ff;
+  --main-blue: #2651ff;
+  --main-purple: #a219d0;
+  --main-pink: #f92674;
+  --highlight-color-yellow: #f0f87b;
+  --highlight-color-red: #f87b7b;
+}
+
+::selection {
+  background-color: var(--main-white);
+  color: var(--main-background-color);
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: var(--main-background-color);
+  font-family: NotoSans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 #__next {
   height: 100vh;
   display: flex;
   flex-direction: column;
-}
-
-:root {
-  --main-color: #c2cee9;
-  --main-color-border: #406ace;
-  --highlight-color-yellow: #f0f87b;
-  --highlight-color-red: #f87b7b;
-  --black-color: #000000;
-  --white-color: #fcfcfc;
-}
-
-::selection {
-  background-color: var(--main-color);
-  color: var(--white-color);
 }
 
 a {
@@ -41,6 +49,7 @@ h1 {
   font-size: 2.6em;
   margin: 0;
   padding: 0;
+  color: var(--main-white);
 
   @include laptop {
     font-size: 2.6em;
@@ -57,6 +66,7 @@ h2 {
   font-size: 2.4em;
   margin: 0;
   padding: 0;
+  color: var(--main-white);
 
   @include laptop {
     font-size: 2.4em;
@@ -73,6 +83,7 @@ h3 {
   font-size: 2.2em;
   margin: 0;
   padding: 0;
+  color: var(--main-white);
 
   @include laptop {
     font-size: 2.2em;
@@ -89,6 +100,7 @@ h4 {
   font-size: 2em;
   margin: 0;
   padding: 0;
+  color: var(--main-white);
 
   @include laptop {
     font-size: 2em;
