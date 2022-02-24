@@ -113,6 +113,23 @@ h4 {
   }
 }
 
+h5 {
+  font-size: 1.8em;
+  margin: 0;
+  padding: 0;
+  color: var(--main-white);
+
+  @include laptop {
+    font-size: 1.8em;
+  }
+  @include tablet {
+    font-size: 1.2em;
+  }
+  @include desktop {
+    font-size: 1.2em;
+  }
+}
+
 /* CSS 제거 */
 button {
   -webkit-appearance: none;

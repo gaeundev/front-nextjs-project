@@ -4,7 +4,7 @@ import React from 'react';
 // css
 
 // component
-import ContainerRowItem from 'component/frame/containerRowItem';
+import ContainerRowItem from 'component/frame/ContainerRowItem';
 
 const SecondContainer: React.FC = () => {
   return (

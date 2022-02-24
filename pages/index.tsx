@@ -4,7 +4,9 @@ import Frame from 'component/frame/Frame';
 const Home: NextPage = () => {
   return (
     <>
-      <Frame></Frame>
+      <Frame>
+        <div style={{ color: 'white', textAlign: 'center' }}>홈 메인</div>
+      </Frame>
     </>
   );
 };

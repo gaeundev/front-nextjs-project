@@ -13,8 +13,8 @@ const Header: React.FC = () => {
           <Link href="/">
             <a>logo</a>
           </Link>
-          <Link href="/">
-            <a>메뉴1</a>
+          <Link href="/first-menu">
+            <a>로그인폼</a>
           </Link>
           <Link href="/">
             <a>메뉴2</a>
